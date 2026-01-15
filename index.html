@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Coming Soon</title>
+  <meta name="description" content="We’re building something new. Launching soon." />
+  <meta name="robots" content="noindex,nofollow" />
+
+  <link rel="stylesheet" href="/styles.css" />
+
+  <!-- Optional: replace with your real domain once live -->
+  <link rel="canonical" href="https://example.com/" />
+
+  <!-- Social preview (optional) -->
+  <meta property="og:title" content="Coming Soon" />
+  <meta property="og:description" content="We’re building something new. Launching soon." />
+  <meta property="og:type" content="website" />
+</head>
+
+<body>
+  <main class="wrap">
+    <header class="header">
+      <div class="logo" aria-hidden="true"></div>
+      <div class="brand">
+        <p class="name">Your Brand</p>
+        <p class="tag">New site launching soon</p>
+      </div>
+    </header>
+
+    <section class="card" aria-labelledby="title">
+      <h1 id="title">We’re almost ready.</h1>
+      <p class="sub">
+        We’re working on a new website. Pop your email in and we’ll let you know when it’s live.
+      </p>
+
+      <!-- Option A: simplest (opens user mail app). Replace email. -->
+      <div class="actions">
+        <a class="btn" href="mailto:hello@yourdomain.co.uk?subject=Notify%20me%20when%20you%20launch&body=Please%20notify%20me%20when%20the%20site%20launches.">
+          Notify me
+        </a>
+
+        <!-- Option B: show your socials instead (replace links or delete). -->
+        <a class="link" href="#" rel="noopener">Instagram</a>
+        <a class="link" href="#" rel="noopener">TikTok</a>
+      </div>
+
+      <div class="fineprint">
+        <p>In the meantime: <a href="mailto:hello@yourdomain.co.uk">hello@yourdomain.co.uk</a></p>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>© <span id="y"></span> Your Brand. All rights reserved.</p>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
