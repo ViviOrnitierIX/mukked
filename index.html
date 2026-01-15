@@ -5,122 +5,65 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <title>Mukked — Coming Soon</title>
-  <meta name="description" content="Mukked is a clothing brand built for getting outside — because mental health needs fresh air." />
+  <meta name="description" content="Mukked — premium outdoor clothing built for mental reset." />
   <meta name="robots" content="noindex,nofollow" />
   <meta name="theme-color" content="#0A0A0A" />
 
-  <!-- Nice default font stack (no external deps). If you want, I can swap to Inter via Google Fonts. -->
   <link rel="stylesheet" href="/styles.css" />
 </head>
 
 <body>
   <div class="bg" aria-hidden="true"></div>
 
-  <header class="site-header">
-    <div class="container header-inner">
-      <a class="brand" href="#" aria-label="Mukked home">
-        <!-- Drop your logo into the repo as /logo.svg or /logo.png and this will just work -->
-        <img class="brand-mark" src="/logo.svg" alt="Mukked logo" onerror="this.style.display='none'; document.documentElement.classList.add('no-logo');" />
-        <span class="brand-word">Mukked</span>
-      </a>
-
-      <nav class="nav">
-        <a href="#who" class="nav-link">Who we are</a>
-        <a href="#socials" class="nav-link">Socials</a>
-      </nav>
-    </div>
-  </header>
-
   <main class="container">
-    <section class="hero">
-      <div class="hero-left">
-        <div class="pill" aria-label="Status">
-          <span class="dot" aria-hidden="true"></span>
-          <span>Coming soon</span>
-        </div>
+    <header class="top">
+      <!-- Put your logo in the repo root as /logo.svg (preferred) or /logo.png -->
+      <img class="logo" src="/logo.svg" alt="Mukked" onerror="this.style.display='none';" />
+      <div class="wordmark">Mukked</div>
+    </header>
 
-        <h1>Outside helps.<br class="br" /> We’re building the brand to match.</h1>
+    <section class="section" aria-label="Coming soon">
+      <div class="kicker">Coming soon</div>
+      <h1>Outside helps.<br />We’re nearly ready.</h1>
+      <p class="lead">
+        Premium outdoor-ready clothing made for people who use getting outside to steady their head.
+        Clean kit. Real purpose.
+      </p>
 
-        <p class="lead">
-          Mukked is premium outdoor-ready clothing for people who use the outdoors to steady their head.
-          Clean kit, real purpose — built for walks, woods, rain, and reset.
-        </p>
-
-        <div class="cta-row" id="socials">
-          <!-- Replace these links with your real socials -->
-          <a class="btn btn-primary" href="https://instagram.com/" target="_blank" rel="noopener">Instagram</a>
-          <a class="btn btn-ghost" href="https://tiktok.com/" target="_blank" rel="noopener">TikTok</a>
-          <a class="btn btn-ghost" href="mailto:hello@mukked.co.uk?subject=Mukked%20launch%20updates">Email</a>
-        </div>
-
-        <p class="fine">
-          Want first access? Email us and put “notify me” in the subject.
-        </p>
+      <div class="cta">
+        <a class="btn primary" href="mailto:hello@mukked.co.uk?subject=Mukked%20launch%20updates">Get notified</a>
+        <a class="btn ghost" href="#socials">Socials</a>
       </div>
 
-      <aside class="hero-right" aria-label="Brand statement">
-        <div class="card">
-          <p class="card-kicker">Mukked</p>
-          <p class="card-title">Proud to be dirty.</p>
-          <p class="card-body">
-            Less scrolling. More steps. More sky. More mud on your boots.
-          </p>
-
-          <div class="divider"></div>
-
-          <ul class="micro">
-            <li>Premium basics, outdoor-first</li>
-            <li>Minimal branding, maximum wear</li>
-            <li>Built around mental reset</li>
-          </ul>
-        </div>
-      </aside>
+      <div class="line" aria-hidden="true"></div>
     </section>
 
-    <section class="section" id="who" aria-labelledby="who-title">
-      <div class="section-head">
-        <h2 id="who-title">Who we are</h2>
-        <p>
-          We’re making clothing for the moments that actually help — the walk when your brain won’t shut up,
-          the cold air that snaps you back, the muddy trail that clears the noise.
-        </p>
-      </div>
+    <section class="section" id="who" aria-label="Who we are">
+      <h2>Who we are</h2>
+      <p>
+        Mukked is built around the moments that genuinely help — the walk when your brain won’t shut up,
+        the cold air that snaps you back, the muddy trail that clears the noise.
+      </p>
+      <p class="muted">
+        Less scrolling. More steps. More sky. Proud to be dirty.
+      </p>
 
-      <div class="grid">
-        <article class="panel">
-          <h3>Built for real use</h3>
-          <p>
-            Hard-wearing fabrics, clean silhouettes, and details that matter. Nothing loud. Nothing flimsy.
-          </p>
-        </article>
+      <div class="line" aria-hidden="true"></div>
+    </section>
 
-        <article class="panel">
-          <h3>Designed to calm</h3>
-          <p>
-            A premium feel with a quieter presence — because the point is to get outside, not show off.
-          </p>
-        </article>
-
-        <article class="panel">
-          <h3>Community-driven</h3>
-          <p>
-            Drops, meet-ups, and outdoor moments. If it helps your head, it belongs here.
-          </p>
-        </article>
+    <section class="section" id="socials" aria-label="Social links">
+      <h2>Socials</h2>
+      <div class="links">
+        <!-- Replace with your real links -->
+        <a href="https://instagram.com/" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://tiktok.com/" target="_blank" rel="noopener">TikTok</a>
+        <a href="https://youtube.com/" target="_blank" rel="noopener">YouTube</a>
+        <a href="mailto:hello@mukked.co.uk">Email</a>
       </div>
     </section>
 
-    <footer class="site-footer">
-      <div class="footer-left">
-        <span class="footer-brand">Mukked</span>
-        <span class="sep">·</span>
-        <span class="muted">Outdoor clothing for mental reset</span>
-      </div>
-      <div class="footer-right">
-        <a class="footer-link" href="mailto:hello@mukked.co.uk">hello@mukked.co.uk</a>
-        <span class="sep">·</span>
-        <span class="muted">© <span id="y"></span></span>
-      </div>
+    <footer class="footer">
+      <span>© <span id="y"></span> Mukked</span>
     </footer>
   </main>
 
