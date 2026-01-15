@@ -77,6 +77,16 @@ p{
   max-width: 72ch;
 }
 
+.tagline{
+  margin: 18px 0 0;
+  text-align: center;
+  font-size: clamp(1.05rem, 2vw, 1.35rem);
+  font-style: italic;
+  color: rgba(255,255,255,.78);
+  letter-spacing: -0.01em;
+}
+
+
 .muted{ color: var(--soft); }
 
 /* SOCIALS */
