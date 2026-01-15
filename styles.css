@@ -85,6 +85,7 @@ p{
   flex-wrap: wrap;
   gap: 14px 18px;
   justify-content: center; /* <-- this centres the links */
+  margin-top: 4px;
 }
 
 .socials a{
